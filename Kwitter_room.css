@@ -1,0 +1,109 @@
+body
+{ 
+    text-align: center;
+    transition: 1s;
+    background-color: maroon;
+}
+
+body:hover
+{ 
+    background-color: red;
+    font-style: italic;
+}
+
+h2
+{
+    font-size: 60px;
+    color: white;
+    background-color: maroon;
+    transition: 0.9s;
+}
+
+h2:hover
+{
+    font-size: 60px;
+    color: maroon;
+    background-color: red;
+}
+
+.trending 
+{
+    border-color:green;
+    color: black;
+    background-color: white;
+    transition-duration: 1s;
+    padding: 10px;
+}
+
+.trending:hover 
+{
+    border-color: black;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+.Send
+{
+    background-color: green;
+    color: white;
+    margin-top:10px;
+    padding: 5px;
+    transition: 2s;
+}
+
+.Send:hover
+{
+    background-color: green;
+    color: white;
+    margin-top:10px;
+    padding: 15px;
+
+}
+
+.Message
+{
+    height:20px;
+    width: 200px;
+    transition: 1s;
+}
+
+.Message:hover
+{
+    background-color: orange;
+    padding: 30px;
+    color: black;
+}
+
+.logout
+{
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    transition: 1s;
+    float: right;
+}
+
+.logout:hover
+{
+    background-color: red;
+    font-size: 15px;
+    color: whitesmoke;
+    padding: 20px;
+}
+
+#output
+{
+	padding: 10px; 
+    width:80%;
+    background: rgba(255,255,255,0.8);
+    border-radius: 15px;
+    margin-left: 120px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.color_white
+{
+	color: white
+}
